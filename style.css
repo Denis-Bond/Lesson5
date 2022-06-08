@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 900px;
+    margin: auto;
+    background-color: #0E497EB2;
+    position: relative;
+    padding-left: 78px;
+    padding-right: 79px;
+    padding-top: 99px;
+}
+
+main {
+    margin-top: 104px;
+}
+
+.block {
+    text-align: left;
+    width: 743px;
+    position: relative;
+}
+
+body {
+    background-color: #7CDAEF;
+}
+
+h1 {
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    color: #FFFFFF;
+}
+
+p {
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    margin-top: 26px;
+}
+
+h2 {
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+    color: #FFFFFF;
+    margin-top: 36px;
+}
+
+.cloud1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(50%, -50%);
+}
+
+.cloud2 {
+    position: absolute;
+    top: 178px;
+    left: -205px;
+    z-index: -1;
+}
+
+.cloud3 {
+    position: absolute;
+    top: 450px;
+    left: 638px;
+    z-index: -1;
+}
+
+.block img {
+    margin-top: 51px;
+    margin-bottom: 176px;
+    margin-right: 10px;
+}
+
+.grass {
+    position: fixed;
+    width: 100%;
+    background-image: url(./images/Grass.png);
+    bottom: 0;
+    height: 132px;
+}
